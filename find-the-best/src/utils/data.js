@@ -17,47 +17,89 @@ export const banner = {
 
 export const faqs = [
   {
+    id: 1,
     question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
+    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+
+
+
 
   },
 
 
   {
-    question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
+    id: 2,
+    question: "How do I change my page password?",
+    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+
 
   },
 
   {
-    question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
+    id: 3,
+    question: "What is BankID?",
+    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+
 
   },
 
-  {
-    question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
-
-  },
-
-  {
-    question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
-
-  },
-
-  {
-    question: "Do I have to allow the use of cookies?",
-    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser ",
-    des: "See also: What is a cookie and what does it do? "
-
-  },
+ 
 
 
 ]
+
+
+export const faq = [
+ {
+    id: 4,
+    question: "Whose birth number can I use?",
+     answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+   
+
+  },
+
+  {
+    id: 5,
+    question: "When do I receive a password ordered by letter?",
+   answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+  
+
+  },
+
+  {
+    id: 6,
+    question: "What do I have to do to receive a password via SMS?",
+     answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+  
+
+  },
+
+ 
+
+
+]
+
+
+ // {
+  //   id: 4,
+  //   question: "Whose birth number can I use?",
+  //    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+  //  
+
+  // },
+
+  // {
+  //   id: 5,
+  //   question: "When do I receive a password ordered by letter?",
+  //  answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+  // 
+
+  // },
+
+  // {
+  //   id: 6,
+  //   question: "What do I have to do to receive a password via SMS?",
+  //    answer: "Yes, in order to use My page, You must allow the use of cookies in your browser. See also: What is a cookie and what does it do? ",
+  //
+
+  // },

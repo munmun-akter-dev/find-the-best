@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 
-import los_main_left_img from "../../images/los_main_left_img.png"
+import los_main_left_img from "../../../public/images/los_main_left_img.png"
+
+
 
 
 const LosBody = () => {

@@ -3,12 +3,12 @@ const WieCard = () => {
 
     <>
       <div className="container mt-[60px] mb-[127px]">
-        <div className="grid grid-cols-12  gap-x-10 ">
+        <div className="grid grid-cols-12 gap-x-[135px]  justify-center items-center">
 
           {/* CARD ITEMS */}
-          <div className="col-span-3 group ">
+          <div className="col-span-3 group  ">
 
-            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px] w-[348px] h-[264px] ">
+            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px] w-[348px] h-[264px]  ">
               <div className="card_content_parent flex justify-center items-center text-center px-[72px] py-[49] mt-[49px]">
                 <div className="bg-white w-[85px] h-[85px] rounded-full flex justify-center items-center p-[26px] group-hover:bg-[#fff]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">

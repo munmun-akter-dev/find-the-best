@@ -1,3 +1,6 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,8 +12,8 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        "Urbanist": ["Urbanist", " sans-serif"],
-        "Fraunces": ["fraunces"],
+        "Urbanist": ["Urbanist", "sans-serif"],
+        "Fraunces": ["Fraunces", "serif"],
       },
 
       backgroundImage: {
@@ -23,7 +26,6 @@ module.exports = {
     container: {
       center: true, // Centers the container by default
       padding: '15rem', // Adds padding to the container
-
       screens: {
         sm: '100%', // Full width on small screens
         md: '768px', // Custom width on medium screens
@@ -35,11 +37,13 @@ module.exports = {
 
     },
 
+    backgroundImage: {
+      "hero-img": "url(/images/hero_bg_img.png)"
+    }
+
 
   },
   plugins: [
     require('daisyui'),
-
-
   ],
 };

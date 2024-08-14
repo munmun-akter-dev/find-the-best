@@ -7,6 +7,7 @@ import Los from "./components/Los";
 import LosBody from "./components/LosBody"
 import Question from "./components/Question";
 import Accordion from "./components/Acoordion";
+import Footer from "./components/Footer";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <LosBody />
       <Question />
       <Accordion />
+      <Footer />
 
 
     </>
