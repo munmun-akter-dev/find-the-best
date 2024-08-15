@@ -19,11 +19,11 @@ export default function Accordion() {
 
   return (
     <div>
-      <div className="container mb-[126px]">
-        <div className="grid grid-cols-12 gap-[64px] pt-[90px]">
+      <div className="container lg:mb-[126px] md:mb-[30px]">
+        <div className="grid lg:grid-cols-12  lg:gap-[64px] md:gap-[0px]  lg:pt-[90px] md:pt-[20px] md:px-[55px]">
 
 
-          <div className="col-span-6">
+          <div className="col-span-6 ">
 
             {faqs.map((index) => (
               <div
@@ -43,7 +43,7 @@ export default function Accordion() {
                     }`}
                   onClick={() => handleClick(index)}
                 >
-                  <span className="text-[#09090B] font-Fraunces text-[20px] font-normal leading-[28px]">{index.question}</span>
+                  <span className="text-[#09090B] font-Fraunces md:text-[18px] lg:text-[20px] font-normal leading-[28px]">{index.question}</span>
 
 
 
@@ -89,7 +89,7 @@ export default function Accordion() {
 
 
 
-          <div className="col-span-6">
+          <div className="col-span-6 ">
 
             {faq.map((index) => (
               <div

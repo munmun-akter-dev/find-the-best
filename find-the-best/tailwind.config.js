@@ -9,6 +9,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: '100%', // Full width on small screens
+      md: '768px', // Custom width on medium screens
+      lg: '1024px', // Custom width on large screens
+      xl: '1540px',
+    },
     extend: {
 
       fontFamily: {
@@ -25,16 +31,6 @@ module.exports = {
 
     container: {
       center: true, // Centers the container by default
-      padding: '15rem', // Adds padding to the container
-      screens: {
-        sm: '100%', // Full width on small screens
-        md: '768px', // Custom width on medium screens
-        lg: '1024px', // Custom width on large screens
-        xl: '1920px',  // Custom width on extra-large screens
-        // Custom width on 2x-large screens
-      },
-
-
     },
 
     backgroundImage: {
@@ -49,3 +45,4 @@ module.exports = {
   ],
 
 };
+

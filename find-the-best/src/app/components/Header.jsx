@@ -8,13 +8,13 @@ const Header = () => {
     <>
 
       <div className="container">
-        <div className="navbar bg-white h-[92px] flex justify-center items-center">
+        <div className="navbar bg-white h-[92px] flex justify-center items-center md:px-[45px]">
           <div className="navbar-start">
 
             <a href="#" ><img src={nav_img.src} alt="" /></a>
           </div>
 
-          <div className="navbar-center hidden lg:flex ">
+          <div className="navbar-center  lg:flex ">
             <ul className=" menu-horizontal px-1 gap-[62px]">
               <li><a href="#" className="text-[#030712] font-Urbanist text-[18px] font-normal leading-[28px] " >Home</a></li>
               <li><a href="#" className="text-[#030712] font-Urbanist text-[18px] font-normal leading-[28px] " >Process</a></li>
