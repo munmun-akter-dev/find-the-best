@@ -3,3 +3,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* custom css start */
+
+.input:focus,
+.input:focus-within {
+  outline-color: transparent;
+}
+
+
+.radio-error:checked,
+.radio-error[aria-checked="true"] {
+
+  border-color: white;
+
+
+}
+
+.radio-error {
+
+  --tw-border-opacity: 1;
+  border-color: white;
+}
+
+.radio-error:checked,
+.radio-error[aria-checked="true"] {
+
+  border-color: white;
+  background-color: #F7941D;
+
+
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (hover: hover) {
+  .radio-error:hover {
+    --tw-border-opacity: 1;
+    border-color: white;
+  }
+}
+
+
+/* custom css end */

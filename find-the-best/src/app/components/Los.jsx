@@ -17,25 +17,13 @@ const Los = () => {
               {/* radio start */}
 
 
-              {/* <div className="flex justify-center items-center  gap-3">
-                <div className="flex justify-center items-center ">
-                  <input id="default-radio-1 " type="radio" value="" name="default-radio" className="w-4 h-4 text-ye border-[#E4E4E7] checked:bg-yellow-500" />
-                  <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-white dark:text-gray-300">Male</label>
-                </div>
-
-                <div className="flex justify-center items-center">
-                  <input id="default-radio-1  " type="radio" value="" name="default-radio" className="w-4 h-4  border-[#E4E4E7] " />
-                  <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-white dark:text-gray-300">Female</label>
-                </div>
-              </div> */}
-
-              <div className="flex justify-center items-center gap-3">
+              {/* <div className="flex justify-center items-center gap-3">
                 <div className="flex justify-center items-center">
                   <input
                     id="male-radio"
                     type="radio"
                     name="gender-radio"
-                    className="w-4 h-4 text-ye border-[#E4E4E7] checked:bg-yellow-500"
+                    className="w-4 h-4 text-ye border-[#E4E4E7]  "
                   />
                   <label
                     htmlFor="male-radio"
@@ -45,13 +33,17 @@ const Los = () => {
                   </label>
                 </div>
 
+
                 <div className="flex justify-center items-center">
                   <input
                     id="female-radio"
                     type="radio"
                     name="gender-radio"
-                    className="w-4 h-4 border-[#E4E4E7] checked:bg-yellow-500"
+                    className="w-4 h-4 border-[#E4E4E7] " defaultChecked
                   />
+
+
+
                   <label
                     htmlFor="female-radio"
                     className="ms-2 text-sm font-medium text-white dark:text-gray-300"
@@ -59,9 +51,24 @@ const Los = () => {
                     Female
                   </label>
                 </div>
+              </div> */}
+
+
+
+              <div className="radio_parent flex justify-center items-center gap-4">
+                <div className="flex justify-center items-center gap-2">
+
+                  <input type="radio" name="radio-8" className="radio radio-error border-white  " />
+                  <label className="text-white font-Urbanist text-[16px] font-normal leading-[16px]" htmlFor="">Male</label>
+                </div>
+                <div className="flex justify-center items-center gap-2">
+
+                  <input type="radio" name="radio-8" className="radio radio-error" defaultChecked />
+                  <label className="text-white font-Urbanist text-[16px] font-normal leading-[16px]" htmlFor="">Female</label>
+
+                </div>
+
               </div>
-
-
               {/* radio end */}
 
               <div className="flex justify-center items-center mt-[30px]">
@@ -77,7 +84,6 @@ const Los = () => {
 
             </div>
           </div>
-
 
 
         </div>

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container bg-[#F8FAFC] pt-[128px]  ">
         <div className="grid grid-cols-12 ">
 
-          <div className="col-span-3 mb-[46px]">
+          <div className="col-span-4 mb-[46px] ">
             <a href="#"><div><img src={nav_img.src} alt="" /></div></a>
             <div className="svg_parent flex justify-start items-center mt-[48px] ">
 
@@ -53,7 +53,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="col-span-3">
+          <div className="col-span-2">
 
             <a href="#"> <div className="mb-[24px]">
               <h6 className=" text-[#000] font-Fraunces  text-[20px] font-normal leading-[28px] align-self">Quick Link</h6>
@@ -68,7 +68,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="col-span-3">
+          <div className="col-span-2">
 
             <div className="mb-[24px]">
               <a href="#"><h6 className="text-[#000] font-Fraunces  text-[20px] font-normal leading-[28px] align-self ">Legal</h6></a>
@@ -85,29 +85,31 @@ const Footer = () => {
           </div>
 
 
-          <div className="col-span-3">
-            <form >
-              <a href="#">   <h6 className="text-[#000] font-Fraunces  text-[20px] font-normal leading-[28px] align-self mb-[24px]">Newsletter</h6></a>
-              <fieldset className="">
-                <span className="text-[#27272A] font-Urbanist text-[20px] font-normal leading-[28px]">Join our newsletter to stay up to date on <br />
-                  features and releases.</span>
+          <div className="col-span-4 ">
+            <div className="flex justify-end">
+              <form >
+                <a href="#">   <h6 className="text-[#000] font-Fraunces  text-[20px] font-normal leading-[28px] align-self mb-[24px]">Newsletter</h6></a>
+                <fieldset className="">
+                  <span className="text-[#27272A] font-Urbanist text-[20px] font-normal leading-[28px]">Join our newsletter to stay up to date on <br />
+                    features and releases.</span>
 
-                <div className="flex gap-[10px] mt-[19px] ">
-                  <input
-                    type="text"
-                    placeholder="Enter your email"
-                    className="input input-bordered text-[#71717A] font-Urbanist text-[16px] font-normal leading-[16px] w-[244px] h-[45px]" />
+                  <div className="flex gap-[10px] mt-[28px] ">
+                    <input
+                      type="text"
+                      placeholder="Enter your email"
+                      className="input input-bordered text-[#71717A] font-Urbanist text-[16px] font-normal leading-[16px] w-[244px] h-[45px]" />
 
-                  <button className="bg-[#F7941D] font-Fraunces text-[16px] uppercase font-normal leading-[24px] rounded-[4px] w-[160px] h-[45px] text-white p-[16px] flex justify-center items-center">Get Started</button>
-
-
-
+                    <button className="bg-[#F7941D] font-Fraunces text-[16px] uppercase font-normal leading-[24px] rounded-[4px] w-[160px] h-[45px] text-white p-[16px] flex justify-center items-center">Get Started</button>
 
 
-                </div>
 
-              </fieldset>
-            </form>
+
+
+                  </div>
+
+                </fieldset>
+              </form>
+            </div>
 
           </div>
 
@@ -115,7 +117,7 @@ const Footer = () => {
 
         <hr className="text-[#CBD5E1] h-[1px] mt-[80px]" />
 
-        <p className="flex justify-center items-center pb-[78px] mt-[30px] text-[#000] font-Urbanist text-[16px] font-normal leading-[16px]">© 2024 Find Best Look. All rights reserved.</p>
+        <p className="flex justify-center items-center pb-[78px] mt-[35px] text-[#000] font-Urbanist text-[16px] font-normal leading-[16px]">© 2024 Find Best Look. All rights reserved.</p>
 
 
 

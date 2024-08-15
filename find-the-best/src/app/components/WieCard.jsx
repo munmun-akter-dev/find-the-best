@@ -22,12 +22,7 @@ const WieCard = () => {
                   hochladen
                 </h5>
               </a>
-
-
             </div>
-
-
-
           </div>
 
 
@@ -85,19 +80,8 @@ const WieCard = () => {
                   bearbeitet
                 </h5>
               </a>
-
-
             </div>
-
-
-
-
-
-
-
-
           </div>
-
 
 
           {/* CARD ITEMS */}
