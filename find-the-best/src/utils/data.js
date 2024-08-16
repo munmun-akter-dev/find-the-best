@@ -4,14 +4,27 @@ export const banner = {
   btnTitle: "Learn More"
 }
 
+export const navItems = [
+  {
+    id: 1,
+    title: "Home",
+    url: '#'
+  },
+  {
+    id: 2,
+    title: "Process",
+    url: '#'
+  },
+  {
+    id: 3,
+    title: "FAQ",
+    url: '#'
+  },
+]
 
 
 
-// export const accordion = {
-//   title1: "Do I have to allow the use of cookies? ",
-//   des: "Yes, in order to use My page, You must allow the use of cookies in your browser.",
-//   pera: "See also: What is a cookie and what does it do?"
-// }
+
 
 
 

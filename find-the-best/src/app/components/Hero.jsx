@@ -4,13 +4,13 @@ import { banner } from '../../utils/data';
 const Hero = () => {
   return (
     <>
-      <div className="bg-hero-img bg-no-repeat bg-cover">
-        <div className="flex justify-center py-[320px]">
+      <div className="bg-hero-img bg-no-repeat bg-cover py-[320px]">
+        <div className="flex justify-center">
           <div className="">
-            <h1 className="mb-4 text-white font-Fraunces lg:text-[96px] md:text-[48px] font-bold leading-[96px] text-center  ">
+            <h1 className="lg:mb-4  text-white font-Fraunces lg:text-[96px] md:text-[48px] font-bold leading-[96px] text-center  ">
               {banner.title}
             </h1>
-            <p className="mb-7 text-[#E2E8F0] text-center font-Urbanist lg:text-[24px] md:text-[20px] font-normal leading-32px ">
+            <p className="lg:mb-7 md:mb-12 text-[#E2E8F0] text-center font-Urbanist lg:text-[24px] md:text-[20px] font-normal leading-32px ">
               {banner.description}
             </p>
             <div className="flex justify-center items-center">

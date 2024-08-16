@@ -2,13 +2,13 @@ const WieCard = () => {
   return (
 
     <>
-      <div className="container mt-[60px] lg:mb-[127px] md:mb-[50px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 md:gap-[32px] md:px-[45px] ">
+      <div className="container mt-[60px] lg:mb-[127px] md:mb-[50px] ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-[20px]  md:gap-[32px] md:px-[45px] lg:px-0  ">
 
           {/* CARD ITEMS */}
-          <div className="group ">
+          <div className="group  ">
 
-            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px]  px-[72px] py-[50px] ">
+            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px]  px-[72px] py-[50px]  ">
               <div className="card_content_parent flex justify-center items-center text-center">
                 <div className="bg-white w-[85px] h-[85px] rounded-full flex justify-center items-center p-[26px] group-hover:bg-[#fff]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -22,14 +22,17 @@ const WieCard = () => {
                   hochladen
                 </h5>
               </a>
+
             </div>
+
+
           </div>
 
 
 
-          <div className="group">
+          <div className="group ">
 
-            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px] px-[50px] py-[50px]  ">
+            <div className="  hover:bg-[#F7941D] bg-[#F3F4F6] border border-[#F3F4F6] rounded-[8px] px-[50px] py-[50px]    ">
               <div className="card_content_parent flex justify-center items-center text-center ">
                 <div className="bg-white w-[85px] h-[85px] rounded-full flex justify-center items-center p-[26px] group-hover:bg-[#fff]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="#1F2937">

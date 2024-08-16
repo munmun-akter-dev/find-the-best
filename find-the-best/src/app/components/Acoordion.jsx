@@ -1,8 +1,8 @@
 
 
 
+// // for latest accordion end
 
-// for latest accordion start
 
 "use client"; // Add this line to mark the component as a Client Component
 
@@ -20,11 +20,10 @@ export default function Accordion() {
   return (
     <div>
       <div className="container lg:mb-[126px] md:mb-[30px]">
-        <div className="grid lg:grid-cols-12  lg:gap-[64px] md:gap-[0px]  lg:pt-[90px] md:pt-[20px] md:px-[55px]">
+        <div className="grid lg:grid-cols-12 lg:gap-[64px] md:gap-[0px] lg:pt-[90px] md:pt-[20px] md:px-[55px] lg:px-0">
 
-
-          <div className="col-span-6 ">
-
+          {/* First Column */}
+          <div className="col-span-6">
             {faqs.map((index) => (
               <div
                 key={index}
@@ -43,9 +42,9 @@ export default function Accordion() {
                     }`}
                   onClick={() => handleClick(index)}
                 >
-                  <span className="text-[#09090B] font-Fraunces md:text-[18px] lg:text-[20px] font-normal leading-[28px]">{index.question}</span>
-
-
+                  <span className="text-[#09090B] font-Fraunces  lg:text-[20px] md:text-[18px] font-normal leading-[28px] text-[14px]">
+                    {index.question}
+                  </span>
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +53,7 @@ export default function Accordion() {
                     viewBox="0 0 24 24"
                     fill="none"
                     className={`transform transition-transform duration-300 ${openIndex === index
-                      ? "bg-yellow-500 rounded-full" // Yellow background when open
+                      ? "bg-[#F7941D] rounded-full" // Yellow background when open
                       : "bg-[#94A3B8] rounded-full" // Gray background when closed
                       }`}
                   >
@@ -73,24 +72,16 @@ export default function Accordion() {
                 </div>
 
                 {openIndex === index && (
-                  <div className="collapse-content bg-[#FFF7ED] p-4">
+                  <div className="collapse-content bg-[#FFF7ED] p-4 h-[100px] overflow-y-auto ">
                     <p>{index.answer}</p>
                   </div>
                 )}
               </div>
             ))}
-
-
-
-
-
-
           </div>
 
-
-
-          <div className="col-span-6 ">
-
+          {/* Second Column */}
+          <div className="col-span-6">
             {faq.map((index) => (
               <div
                 key={index}
@@ -109,9 +100,9 @@ export default function Accordion() {
                     }`}
                   onClick={() => handleClick(index)}
                 >
-                  <span className="text-[#09090B] font-Fraunces text-[20px] font-normal leading-[28px]">{index.question}</span>
-
-
+                  <span className="text-[#09090B] font-Fraunces lg:text-[20px] md:text-[18px] font-normal leading-[28px] text-[14px] ">
+                    {index.question}
+                  </span>
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +111,7 @@ export default function Accordion() {
                     viewBox="0 0 24 24"
                     fill="none"
                     className={`transform transition-transform duration-300 ${openIndex === index
-                      ? "bg-yellow-500 rounded-full" // Yellow background when open
+                      ? "bg-[#F7941D] rounded-full" // Yellow background when open
                       : "bg-[#94A3B8] rounded-full" // Gray background when closed
                       }`}
                   >
@@ -139,29 +130,16 @@ export default function Accordion() {
                 </div>
 
                 {openIndex === index && (
-                  <div className="collapse-content bg-[#FFF7ED] p-4">
+                  <div className="collapse-content bg-[#FFF7ED]  h-[100px] overflow-y-auto leading-6">
                     <p>{index.answer}</p>
                   </div>
                 )}
               </div>
             ))}
-
-
-
-
-
-
           </div>
-
-
-
 
         </div>
       </div>
     </div>
   );
 }
-
-
-// for latest accordion end
-

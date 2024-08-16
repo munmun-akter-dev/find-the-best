@@ -30,7 +30,9 @@ module.exports = {
     },
 
     container: {
-      center: true, // Centers the container by default
+      center: true,
+      // Centers the container by default
+
     },
 
     backgroundImage: {

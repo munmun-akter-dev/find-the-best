@@ -33,12 +33,11 @@
   border-color: white;
   background-color: #F7941D;
 
-
 }
 
 .radio {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 
@@ -49,5 +48,53 @@
   }
 }
 
+
+
+
+
+
+/* Custom styles for radio buttons */
+.radio_parent input[type="radio"]:checked {
+  background-color: #F7941D;
+  border-color: white;
+}
+
+/* Hide the default radio button */
+.radio_parent input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Create the dot inside the radio button */
+.radio_parent input[type="radio"]:checked::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: #F7941D;
+  border-radius: 50%;
+}
+
+.radio_parent label {
+  cursor: pointer;
+}
+
+
+.footer {
+  padding-top: 20px;
+
+  padding-left: 20px;
+}
 
 /* custom css end */
