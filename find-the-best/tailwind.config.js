@@ -18,8 +18,8 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        "Urbanist": ["Urbanist", "sans-serif"],
-        "Fraunces": ["Fraunces", "serif"],
+        "urbanist": ["Urbanist", "sansserif"],
+        "Fraunces": ["fraunces", "serif"],
       },
 
       backgroundImage: {
@@ -39,8 +39,8 @@ module.exports = {
       "hero-img": "url(/images/hero_bg_img.png)"
     }
 
-
   },
+
 
   plugins: [
     require('daisyui'),

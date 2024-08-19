@@ -1,8 +1,5 @@
 
-
-
 // // for latest accordion end
-
 
 "use client"; // Add this line to mark the component as a Client Component
 
@@ -38,7 +35,7 @@ export default function Accordion() {
                 />
 
                 <div
-                  className={`collapse-title text-xl font-medium flex justify-between items-center cursor-pointer p-4 ${openIndex === index ? "bg-[#FFF7ED]" : ""
+                  className={`collapse-title text-xl font-medium flex justify-between items-center cursor-pointer p-4 h-[82px] ${openIndex === index ? "bg-[#FFF7ED]" : ""
                     }`}
                   onClick={() => handleClick(index)}
                 >
@@ -96,11 +93,11 @@ export default function Accordion() {
                 />
 
                 <div
-                  className={`collapse-title text-xl font-medium flex justify-between items-center cursor-pointer p-4 ${openIndex === index ? "bg-[#FFF7ED]" : ""
+                  className={`collapse-title text-xl font-medium flex justify-between items-center cursor-pointer p-4 h-[82px] ${openIndex === index ? "bg-[#FFF7ED]" : ""
                     }`}
                   onClick={() => handleClick(index)}
                 >
-                  <span className="text-[#09090B] font-Fraunces lg:text-[20px] md:text-[18px] font-normal leading-[28px] text-[14px] ">
+                  <span className="text-[#09090B] font-Fraunces lg:text-[20px] text-[18px] font-normal leading-[28px] ">
                     {index.question}
                   </span>
 

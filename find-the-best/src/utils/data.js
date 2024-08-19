@@ -22,6 +22,38 @@ export const navItems = [
   },
 ]
 
+export const wie ={
+
+  title:" Wie läuft der Prozess?"
+ 
+}
+
+
+export const los ={
+  title:"Los Geht’s"
+}
+
+
+
+
+export const question ={
+  title:" Questions and answers about login"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

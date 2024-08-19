@@ -7,57 +7,55 @@
 
 /* custom css start */
 
-.input:focus,
+/* .input:focus,
 .input:focus-within {
   outline-color: transparent;
-}
+} */
 
 
-.radio-error:checked,
+/* .radio-error:checked,
 .radio-error[aria-checked="true"] {
 
-  border-color: white;
+  border-color: #E4E4E7;
 
 
-}
+} */
 
-.radio-error {
+/* .radio-error {
 
   --tw-border-opacity: 1;
-  border-color: white;
-}
+  border-color: #E4E4E7;
+} */
 
-.radio-error:checked,
+/* .radio-error:checked,
 .radio-error[aria-checked="true"] {
 
-  border-color: white;
+  border-color: #E4E4E7;
   background-color: #F7941D;
 
-}
+} */
 
-.radio {
+/* .radio {
   width: 16px;
   height: 16px;
-}
+} */
 
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   .radio-error:hover {
     --tw-border-opacity: 1;
-    border-color: white;
+    border-color: #E4E4E7;
   }
-}
-
-
-
-
-
+} */
 
 /* Custom styles for radio buttons */
-.radio_parent input[type="radio"]:checked {
+
+/* .radio_parent input[type="radio"]:checked {
   background-color: #F7941D;
-  border-color: white;
-}
+  border-color: #E4E4E7;
+} */
+
+
 
 /* Hide the default radio button */
 .radio_parent input[type="radio"] {
@@ -65,12 +63,13 @@
   -moz-appearance: none;
   appearance: none;
   background-color: transparent;
-  border: 2px solid white;
-  width: 20px;
-  height: 20px;
+  border: 1px solid #E4E4E7;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   cursor: pointer;
   position: relative;
+
 }
 
 /* Create the dot inside the radio button */
@@ -80,11 +79,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   background-color: #F7941D;
   border-radius: 50%;
 }
+
 
 .radio_parent label {
   cursor: pointer;
@@ -95,6 +95,15 @@
   padding-top: 20px;
 
   padding-left: 20px;
+}
+
+
+.input:focus,
+.input:focus-within {
+  border-color: transparent;
+  outline-width: 1px;
+  outline-offset: 1px;
+  outline-color: var(--fallback-bc, oklch(var(--bc)/0.2));
 }
 
 /* custom css end */

@@ -1,4 +1,7 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
+
+import Link from "next/link";
 
 import nav_img from "../../../public/images/nav_img.png"
 import md_footer_img from "../../../public/images/md_footer_img.png"
@@ -9,17 +12,20 @@ const Footer = () => {
       <div className="bg-[#F8FAFC]">
         <div className="container lg:pt-[128px]  md:pt-[45px] md:p-[10px] md:px-[10px] lg:px-0  ">
 
-          <footer className="footer  text-base-content md:gap-5 sm:px-[50px]  ">
+          <footer className="footer  text-base-content md:gap-[18px] sm:px-[48px]">
             <nav>
               <div >
 
-                <a href="#"><div><img className="img-fluid hidden lg:block" src={nav_img.src} alt="" /></div>
+                <Link href="#">
+                  <img className="img-fluid hidden lg:block" src={nav_img.src} alt="" />
+                </Link>
 
-                </a>
+                <Link href="#">
+                  <img className="img-fluid lg:hidden md:block" src={md_footer_img.src} alt="" />
+                </Link>
 
-                <a href="#"><div><img className="img-fluid lg:hidden md:block" src={md_footer_img.src} alt="" /></div>
 
-                </a>
+
 
 
                 <div className="hidden lg:block">
@@ -108,7 +114,7 @@ const Footer = () => {
 
             <nav>
 
-              <div className="md:ml-2 lg:ml-0" >
+              <div className="md:ml-[5px] lg:ml-0" >
                 <a href="#"> <div className="mb-[24px]">
                   <h6 className=" text-[#000] font-Fraunces  lg:text-[20px] text-[14px] font-normal leading-[28px] align-self">Quick Link</h6>
                 </div></a>
@@ -152,10 +158,6 @@ const Footer = () => {
                       className="input  text-[#71717A] bg-[#F1F5F9] font-Urbanist lg:text-[16px] md:text-[14px] font-normal leading-[16px] w-[244px] h-[45px]" />
 
                     <button className="bg-[#F7941D] font-Fraunces text-[12px] lg:text-[16px] md:text-[14px]  uppercase font-normal leading-[24px] rounded-[4px] lg:w-[160px] md:w-[244px] h-[45px] text-white p-[16px] flex justify-center items-center">Get Started</button>
-
-
-
-
 
                   </div>
 

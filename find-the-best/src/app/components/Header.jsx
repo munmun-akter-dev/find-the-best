@@ -1,53 +1,4 @@
-// /* eslint-disable @next/next/no-img-element */
-// // import nav_img from "../../images/nav_img.png"
-// import Link from "next/link";
-// import nav_img from "../../../public/images/nav_img.png";
-// import { navItems } from '../../utils/data';
 
-// const Header = () => {
-//   return (
-//     <>
-//       <div className="container">
-//         <div className="navbar bg-white h-[92px] flex justify-center items-center px-[45px] lg:px-0 ">
-//           <div className="navbar-start">
-//             <Link href="#">
-//               <img src={nav_img.src} alt="" />
-//             </Link>
-//           </div>
-//           <div className="navbar-center lg:flex ">
-//             <ul className=" menu-horizontal px-1 lg:gap-[62px] md:gap-[30px]">
-
-
-
-
-//               {navItems.map(item => (
-//                 <li key={item.id}>
-//                   <a
-//                     href={item.url}
-//                     className="text-[#030712] font-Urbanist lg:text-lg md:text-base font-normal leading-7 "
-//                   >
-//                     {item.title}
-//                   </a>
-//                 </li>
-//               ))}
-
-//             </ul>
-//           </div>
-//           <div className="navbar-end ">
-//             <Link
-//               href="#"
-//               className=" bg-[#F7941D] text-white rounded p-[10px] font-Fraunces text-[16px]  font-normal leading-[24px] uppercase"
-//             >
-//               Get Started
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Header;
 
 "use client"; // Add this line at the top of the file
 
@@ -123,7 +74,6 @@ const Header = () => {
                 ))}
               </ul>
             </div>
-
 
           </div>
           <div className="navbar-end hidden md:flex">

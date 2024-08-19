@@ -11,7 +11,7 @@ const LosBody = () => {
     <>
       <div className="bg-[#09090B] lg:pb-[100px] sm:mb-8 ">
         <div className="container  lg:pt-[96px] md:pt-[10px]">
-          <div className=" grid lg:grid-cols-12 md:grid-cols-2 lg:gap-[100px]">
+          <div className=" grid lg:grid-cols-12 md:grid-cols-2 lg:gap-[76px]">
 
 
             <div className="col-span-12 md:col-span-5 md:hidden lg:block">
@@ -21,6 +21,7 @@ const LosBody = () => {
 
               <div className="for_lg_device hidden lg:block ">
                 <div className="svg_parent flex justify-center items-center gap-2 mt-[60px] flex-shrink-0">
+
                   <svg xmlns="http://www.w3.org/2000/svg" width="60" height="59" viewBox="0 0 60 59" fill="none">
                     <path d="M0.5 4.5C0.5 2.567 2.067 1 4 1H55.3333C57.2663 1 58.8333 2.567 58.8333 4.5V54.5C58.8333 56.433 57.2663 58 55.3333 58H4C2.067 58 0.5 56.433 0.5 54.5V4.5Z" fill="#1F1F21" />
                     <path d="M0.5 4.5C0.5 2.567 2.067 1 4 1H55.3333C57.2663 1 58.8333 2.567 58.8333 4.5V54.5C58.8333 56.433 57.2663 58 55.3333 58H4C2.067 58 0.5 56.433 0.5 54.5V4.5Z" stroke="#B45309" />
@@ -86,6 +87,7 @@ const LosBody = () => {
                     <path d="M40.3852 11.8721C45.3019 15.3352 48.0541 20.7374 49.2379 26.4582C49.4598 28.8199 49.5334 31.1675 49.5548 33.5384C49.5622 34.1314 49.5695 34.7245 49.5771 35.3355C49.5688 35.8961 49.5605 36.4567 49.552 37.0342C49.5449 37.5371 49.5379 38.04 49.5306 38.5581C49.1512 40.3115 48.4712 40.9131 47.0651 42.0345C44.3436 43.5628 43.009 44.1586 39.8222 44.1586C39.979 43.6438 40.1359 43.1291 40.2975 42.5987C41.7873 37.34 42.2617 32.6105 41.9951 27.1663C34.8458 23.4702 34.8458 23.4702 27.1018 23.5819C25.4128 24.2485 25.4128 24.2485 23.8878 25.0422C23.0513 25.4365 22.2147 25.8308 21.3528 26.237C20.7553 26.5436 20.1577 26.8503 19.5421 27.1663C19.064 27.1663 18.586 27.1663 18.0935 27.1663C18.422 29.0697 18.7546 30.9723 19.0894 32.8746C19.1809 33.4072 19.2724 33.9397 19.3667 34.4884C19.9516 37.7905 20.7133 40.953 21.7149 44.1586C20.7017 43.9946 19.6911 43.8142 18.682 43.6276C18.119 43.529 17.556 43.4304 16.9759 43.3289C14.6395 42.5591 13.2891 41.6477 11.5749 39.9105C10.0117 32.8019 12.0836 23.2914 15.8697 17.0881C21.9882 9.09841 31.316 6.84226 40.3852 11.8721Z" fill="#A855F7" />
                     <path d="M36.2008 24.3342C37.2859 24.7212 38.3723 25.105 39.4601 25.4847C41.9951 26.4582 41.9951 26.4582 42.7194 27.1663C43.2482 34.68 42.4574 41.5689 37.6494 47.6987C34.4455 49.7078 31.8433 50.199 28.1714 49.4991C25.5959 48.7849 24.3925 48.1495 22.4393 46.2826C19.2758 39.9808 17.9709 34.1197 18.0936 27.1663C20.0146 26.1938 21.941 25.2548 23.8879 24.3342C24.6035 23.97 24.6035 23.97 25.3336 23.5985C29.5255 21.7022 32.0927 22.6052 36.2008 24.3342Z" fill="white" />
                   </svg>
+
 
                 </div>
 
@@ -258,17 +260,8 @@ const LosBody = () => {
                   <h6 className=" lg:hidden md:block text-[#F8FAFC] font-Fraunces md:text-[16px] lg:text-[24px] font-normal leading-[32px] uppercase flex justify-center items-center mt-[17px] mb-[32px] text-center">Medium Length wavy
                   </h6>
                 </div>
-
-
-
-
               </div>
-
-
-
-
             </div>
-
 
 
             <div className="col-span-12 for_md_device_left_side_svg hidden md:block lg:hidden ">
@@ -368,8 +361,8 @@ const LosBody = () => {
 
 
               <div className="flex justify-center items-center md:pb-[50px]">
-                <button className="flex gap-2 w-[162px] h-[48px] p-[10px] justify-center items-center text-white  bg-[#F7941D] font-Fraunces text-[16px] font-bold leading-[24px]  rounded-[4px] mt-[30px]">
-                  Haarfarbe   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <button className="flex gap-2 w-[162px] h-[48px] p-[10px] justify-center items-center  bg-[#F7941D] rounded-[4px] mt-[30px]">
+                  <span className="text-white font-Urbanist text-[16px] font-bold leading-[24px] ">Haarfarbe </span> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                     <path d="M3.66683 11L18.3335 11M18.3335 11L12.8335 16.5M18.3335 11L12.8335 5.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </button>
