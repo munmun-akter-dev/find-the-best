@@ -106,10 +106,9 @@ const Footer = () => {
               </div>
             </nav>
 
-
             <nav>
 
-              <div className="">
+              <div className="md:ml-2 lg:ml-0" >
                 <a href="#"> <div className="mb-[24px]">
                   <h6 className=" text-[#000] font-Fraunces  lg:text-[20px] text-[14px] font-normal leading-[28px] align-self">Quick Link</h6>
                 </div></a>
@@ -135,7 +134,6 @@ const Footer = () => {
                 <div><a href="#" className="text-[#27272A] font-Urbanist lg:text-[16px] text-[14px] font-normal leading-[16px]">Cookies Settings</a></div>
 
               </div>
-
 
             </nav>
 
@@ -166,17 +164,15 @@ const Footer = () => {
             </div>
           </footer>
 
+          <div className="lg:mt-[76px] mt-[30px] lg:mb-[35px] mb-[17px] ">
+            <hr className="text-[#CBD5E1] h-[1px]" />
+          </div>
 
-
-
+          <div className="flex justify-center items-center lg:mb-[70px] mb-[35px]">
+            <p className="footer_copyright text-black font-Urbanist lg:text-[16px] text-[14px] leading-[16px]"> © 2024 Find Best Look. All rights reserved. </p>
+          </div>
         </div >
       </div>
-
-
-
-
-
-
 
     </>
 
