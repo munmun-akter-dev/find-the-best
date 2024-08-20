@@ -34,8 +34,6 @@ export const los ={
 }
 
 
-
-
 export const question ={
   title:" Questions and answers about login"
 }

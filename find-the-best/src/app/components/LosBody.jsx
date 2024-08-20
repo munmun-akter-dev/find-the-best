@@ -1,21 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 
+
 import los_main_left_img from "../../../public/images/los_main_left_img.png"
 import md_los_body_img from "../../../public/images/md_los_body_img.png"
-
-
-
 
 const LosBody = () => {
   return (
     <>
-      <div className="bg-[#09090B] lg:pb-[100px] sm:mb-8 ">
-        <div className="container  lg:pt-[96px] md:pt-[10px]">
+      <div className="bg-[#09090B] lg:pb-[90px] sm:mb-8 ">
+        <div className="container  lg:pt-[63px] md:pt-[10px]">
           <div className=" grid lg:grid-cols-12 md:grid-cols-2 lg:gap-[76px]">
 
 
             <div className="col-span-12 md:col-span-5 md:hidden lg:block">
-              <img className="img-fluid lg:block md:hidden " src={los_main_left_img.src} alt="" />
+              <div className="los_body_left_img"  >
+                <img className="img-fluid lg:block md:hidden  " src={los_main_left_img.src} alt="" />
+              </div>
 
 
 
@@ -92,16 +92,13 @@ const LosBody = () => {
                 </div>
 
 
-                <button className="flex gap-2 w-[162px] h-[48px] p-[10px] justify-center items-center text-white  bg-[#F7941D] font-Urbanist text-[16px] font-bold leading-[24px]  rounded-[4px] mt-[30px]">
+                <button className=" yellow_btn  flex gap-2 w-[162px] h-[56px] p-[10px] justify-center items-center text-white  bg-[#F7941D] font-Urbanist text-[16px] font-bold leading-[24px]  rounded-[4px] mt-[40px]">
                   Haarfarbe   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                     <path d="M3.66683 11L18.3335 11M18.3335 11L12.8335 16.5M18.3335 11L12.8335 5.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </button>
 
               </div>
-
-
-
 
             </div>
 
@@ -139,8 +136,6 @@ const LosBody = () => {
 
                   <h6 className="text-[#F8FAFC] font-Fraunces md:text-[16px] lg:text-[24px] font-normal leading-[32px] uppercase flex justify-center items-center mt-[17px] mb-[32px]">High And Tight Fade</h6>
                 </div>
-
-
 
 
                 <div className="child_parent">
@@ -202,12 +197,6 @@ const LosBody = () => {
 
                   <h6 className="text-[#F8FAFC] font-Fraunces md:text-[16px] lg:text-[24px] font-normal leading-[32px] uppercase flex justify-center items-center mt-[17px] mb-[32px]">Spiky</h6>
                 </div>
-
-
-
-
-
-
 
               </div>
 

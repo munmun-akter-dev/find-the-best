@@ -14,7 +14,7 @@ const Hero = () => {
               {banner.description}
             </p>
             <div className="flex justify-center items-center">
-              <button className="flex w-[162px] h-[48px] p-[10px] justify-center items-center text-white  bg-[#F7941D] font-Fraunces text-[16px] font-normal leading-[24px]  rounded-[4px]">
+              <button className=" yellow_btn flex w-[162px] h-[48px] p-[10px] justify-center items-center text-white  bg-[#F7941D] font-Fraunces text-[16px] font-normal leading-[24px]  rounded-[4px]">
                 {banner.btnTitle}
               </button>
             </div>

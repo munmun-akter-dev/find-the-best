@@ -108,7 +108,6 @@ const Footer = () => {
                   </a>
 
                 </div>
-
               </div>
             </nav>
 
@@ -157,7 +156,7 @@ const Footer = () => {
                       placeholder="Enter your email"
                       className="input  text-[#71717A] bg-[#F1F5F9] font-Urbanist lg:text-[16px] md:text-[14px] font-normal leading-[16px] w-[244px] h-[45px]" />
 
-                    <button className="bg-[#F7941D] font-Fraunces text-[12px] lg:text-[16px] md:text-[14px]  uppercase font-normal leading-[24px] rounded-[4px] lg:w-[160px] md:w-[244px] h-[45px] text-white p-[16px] flex justify-center items-center">Get Started</button>
+                    <button className=" yellow_btn  bg-[#F7941D] font-Fraunces text-[12px] lg:text-[16px] md:text-[14px]  uppercase font-normal leading-[24px] rounded-[4px] lg:w-[160px] md:w-[244px] h-[45px] text-white p-[16px] flex justify-center items-center">Get Started</button>
 
                   </div>
 

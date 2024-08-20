@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+
       <Header />
       <Hero />
       <Wie />
@@ -20,6 +21,7 @@ export default function Home() {
       <Question />
       <Accordion />
       <Footer />
+
     </>
   );
 }

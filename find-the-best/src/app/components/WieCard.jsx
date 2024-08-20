@@ -3,7 +3,7 @@ const WieCard = () => {
 
     <>
       <div className="container mt-[60px] lg:mb-[127px] md:mb-[50px] ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-[20px]  md:gap-[32px] md:px-[45px] lg:px-0  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-[45px] sm:gap-[20px]  gap-[32px] md:px-[45px] lg:px-0  ">
 
           {/* CARD ITEMS */}
 
@@ -61,7 +61,6 @@ const WieCard = () => {
 
                 </h5>
               </a>
-
 
             </div>
 

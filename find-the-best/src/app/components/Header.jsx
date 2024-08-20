@@ -79,7 +79,7 @@ const Header = () => {
           <div className="navbar-end hidden md:flex">
             <Link
               href="#"
-              className="bg-[#F7941D] text-white rounded p-[10px] font-Fraunces text-[16px] font-normal leading-[24px] uppercase"
+              className=" yellow_btn bg-[#F7941D] text-white rounded p-[10px] font-Fraunces text-[16px] font-normal leading-[24px] uppercase"
             >
               Get Started
             </Link>
